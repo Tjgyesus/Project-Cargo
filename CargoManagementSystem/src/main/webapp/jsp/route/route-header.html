@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Header</title>
+</head>
+
+
+</head>
+<body align = "center" >
+
+<div class="topnav">
+    <a href="/">Home</a>
+    <a href="createCargo">Cargo</a>
+    <a href="createDriver">Driver</a>
+    <a href="createTruck">Truck</a>
+    <a class="active" href="createRoute">Route</a>
+    <div class="dropdown">
+        <button class="dropbtn">Add New Entry
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/createCargo">Add A Cargo</a>
+            <a href="/createDriver">Add A Driver</a>
+            <a href="/createTruck">Add A Truck</a>
+            <a href="/createRoute">Add A Route</a>
+
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">View All List
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/viewAll">View All Cargo List</a>
+            <a href="/viewAllDriver">View All Driver List</a>
+            <a href="/viewAllTruck">View All Truck List</a>
+            <a href="/viewAllRoute">View All Route List</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
